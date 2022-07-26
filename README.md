@@ -19,3 +19,7 @@ Re-run with SDF data
 ## I2C
 
 If time permits
+
+## Goal
+
+![SoC Diagram](/soc.png)
