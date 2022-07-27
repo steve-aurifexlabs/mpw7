@@ -22,7 +22,7 @@ set ::env(DESIGN_NAME) counter32_by2_module
 
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/counter.v" \
+	$script_dir/../../verilog/rtl/counter.v \
 	$script_dir/../../verilog/rtl/counter32_by2.v"
 
 set ::env(DESIGN_IS_CORE) 0
