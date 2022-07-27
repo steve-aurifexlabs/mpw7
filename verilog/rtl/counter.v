@@ -40,7 +40,7 @@ module counter #(
     reg [WIDTH-1:0] count_r;
 
     wire [WIDTH-1:0] count_o;
-    assign count_o <= count_r;
+    assign count_o = count_r;
 
     always @(posedge clk) begin
         if (rst) begin
