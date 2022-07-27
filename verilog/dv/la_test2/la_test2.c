@@ -109,12 +109,15 @@ void main()
 
         // reg_mprj_datal = 0xAB610000;
 
-        while (1){
+        /*while (1){
                 if (reg_la0_data_in >= 0x05) {
                         reg_mprj_datal = 0xAB610000;
                         break;
                 }
                 
-        }
+        }*/
+
+        // Configure LA[64] as outputs from the wishbone clock (really from pll from external)
+        reg_la2_oenb = reg_la2_iena = 0x00000002; 
 
 }
