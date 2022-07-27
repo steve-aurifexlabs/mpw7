@@ -53,7 +53,7 @@ module counter #(
     always @(*) begin
         if(set) begin
             next_count = setValue_i;
-        else begin
+        end else begin
             next_count = count_r + INCREMENT_AMOUNT;
         end
     end
